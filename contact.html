@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/style.css">  <!--linking externalcss-->
+                <script src="js/script.js"></script>  <!--linking external jss-->
+                      <!--internal css for background-->
+        <style>
+            body{
+            background-image: url('img/contact.jpg');   
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            }
+        </style>
+        <title>Ujjwal Adhikari</title>
+    </head>
+    <body>                                               <!--Header-->
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="cv.html">CV</a>
+            <a href="blog.html">Blog</a>
+            <a href="research.html">Research</a>
+            <a href="contact.html" class="active">Contact</a>
+        </div>
+        <div class="contact-container">                                   <!--contact part-->
+            <div class="contact-us" style="color: #fff" >
+            <form onsubmit="validateForm()"  method="post" name="messageForm">
+                <label for="name">  First Name: </label><br>
+                <input type="text" class="text" placeholder="Enter your First Name" name="firstname"><br><br>
+                
+                <label for="name">  Last Name: </label><br>
+                <input type="text" class="text" placeholder=" Enter your Last Name" name="lastname"><br><br>
+                
+                <label for="country"> Country:</label><br>
+                <input type="text" class="text" placeholder="Enter your Country Name" name="country"><br><br>
+               
+                <label for="address"> Address: </label><br>
+                <input type="text" class="text" placeholder="Enter your address " name="address"><br><br>
+               
+                <label for="email"> Email:</label><br>
+                <input type="text" class="text" placeholder="eg : abc123@gmail.com" name="email"><br><br>
+               
+                <label for="gender"> Gender:</label><br>
+                <input type="radio" name="gender" value="male" style="margin-left:27px;">Male
+                <input type="radio" name="gender" value="female">Female
+                <input type="radio" name="gender" value="other">Other<br><br>
+                
+                <label for="message"> Message: </label><br>
+                <textarea class="textbox" rows="10" cols="30" placeholder="Type your message here" name="message" style="background-color: azure "></textarea><br>
+                
+                <div>
+                    <center>
+                        <button type="submit" name="submit" value="submit" align="center" > Send </button>
+                    </center>
+                </div>
+            </form>
+        </div>
+        </div>
+        <footer>                                            <!--footer-->
+            <div class="footer-part">
+                <div class="media">
+                <h2 style="font-weight: bold;">Find Me On</h2>
+                    <a href="https://www.facebook.com/ujjwal.adhikari.98229"  target="_blank"><img class="icons" src="img/fb.png"></a>
+                    <a href="https://www.instagram.com/__uzzal__/" target="_blank"><img class="icons" src="img/ig.png"></a>
+                </div>
+                <div class="shortcut">
+                    <h2 style="font-weight: bold;">Links</h2>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="cv.html">CV</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="research.html">Research</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="about">
+                    <h2 style="font-weight: bold;">About Me</h2>
+                    <p>I would like to introduce myself as Ujjwal Adhikari one of the enthusiastic freshers of 'Informatics College Pokhara (ICP)' an associate college of Innovate Nepal Group (ING) directly linked with London Metropolitan University, UK. Being the student of BIT Hons(computing) I am quite eager to learn about the information technology in depth.</p>
+                </div>
+            </div>
+            <div class="bottom">
+                © 2020 Ujjwal Adhikari. All rights reserved.
+            </div>
+        </footer>   
+    </body>
+</html>

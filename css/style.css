@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar starts */
+.active
+{
+    background-color: #3693ff;
+}
+
+.navbar
+{
+    text-align: center;
+    padding: 20px;
+    width: 97%;
+    height:25px;
+    background-color: black;
+    line-height: 25px;
+}
+
+.navbar a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-family: Arial;
+    margin-right: 80px;
+    border: 2px solid transparent;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.navbar a:hover
+{
+    background-color: #3693ff;
+    color: black;
+    
+}
+
+/* Navigation bar ends*/
+
+/* home page middle section starts*/
+.introduction
+{
+    text-align: center;
+}
+
+.introduction img
+{
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-top: 20px;
+}
+
+.introduction img:hover
+{
+    border: 2px solid #000;
+}
+
+.name
+{
+    margin-bottom: 5%;
+    cursor: pointer;
+    font-size: 35px;
+    color: #3693ff;
+    font-family: Algerian;
+}
+ /* home page middle section ends */
+
+
+/* CV part starts */
+.container-cv
+{
+    position: relative;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.cv-section
+{
+    color: #3693ff;
+    border: red;
+    opacity: 0.85;
+    background-color: #000 ;
+    width: 800px;
+}
+
+.qualification-table
+{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+ /* CV part ends */
+
+/* COntact form section starts */
+.form-section
+{
+    margin-top: 3%;
+    position: absolute;
+    top: 15%;
+    left: 37%;
+    max-width:350px;
+    border-radius:5px;
+    padding: 30px;
+    width: 90%;
+    background-color:darkslategrey;
+    background: rgba(0,0,0,0.4);
+}
+
+/* Footer section starts */
+
+footer
+{
+    position: relative;
+    bottom: 0;
+    opacity: 0.85;
+	background-color: #000;
+	color: #ffffff;
+	width: 100%;
+	height: 202px;
+	margin-top: auto;
+
+}
+
+footer .footer-part
+{
+	height: 180px;
+	display: flex;
+}
+                                          
+.footer-part .media
+{
+	flex: 35%;
+	padding: 0 30px;
+	color: #fff;
+}
+
+.footer-part .media .icons
+{
+	background-repeat: no-repeat;
+	background-size: 35px;
+	width: 35px;
+	height: 35px;
+	border-radius: 35px;
+	border: 3px solid #ffffff;
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+.footer-part .media .icons:hover
+{
+	opacity: 0.6;
+	border: 3px solid #3693ff;
+
+}
+
+
+.footer-part .shortcut
+{
+	flex: 30%;
+	padding: 0 30px;
+	border-left: 1px dotted #606060;
+	color: #fff;
+}
+
+.footer-part .shortcut ul
+{
+	display: block;
+}
+
+.footer-part .shortcut ul li
+{
+    margin-top: auto;
+	margin-bottom: 8px;
+
+}
+
+.footer-part .shortcut ul li a
+{
+	color: #fff;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.footer-part .shortcut ul li a:hover
+{
+	color: #3693ff;
+	text-transform: none;
+}
+
+
+
+.footer-part .about
+{
+	flex:30%;
+	padding: 0 30px;
+	border-left: 1px dotted #606060;
+	color: #fff;
+}
+
+footer .bottom
+{
+    margin-top: 1.5%;
+	background: #303030;
+	color: #fff;
+	width: 100%;
+	height:22px;
+	text-align: center;
+	font-size: 15px;
+	padding-top: 6px;
+}
+
+/* footer section ends */
+
+/* Contact section starts */
+.contact-container 
+{
+    text-align: center;
+}
+.contact-us
+{
+    background: #000;
+    opacity: 0.8;
+    width: 350px;
+    border: 1px solid red;
+    display: inline-block;
+    margin: 20px 0px;
+    padding: 20px 20px;
+    text-align: left;
+}
+
+/* Contact section ends*/
+
+/* Blog part starts */
+.blog-container
+{
+    margin-left: 16.5%;
+    margin-right: 20%;
+}
+
+.blog-section 
+{
+    opacity: 0.8;
+    background: #000;
+    height: 1500px;
+    width: 900px;
+    display: inline-block;
+    text-align: center;
+    margin: 50px 0px 50px;
+}
+
+.blog-section .blog-image 
+{
+    height: auto;
+
+}
+.blog-section .blog-image img
+{
+    width: 900px;
+    border: 1px ridge black;
+    padding: 0px;
+}
+
+.blog-section .blog-title 
+{
+    color: #3693ff;
+    height: 50px;
+    font-weight: bold;
+    background: #fff;
+}
+
+.blog-section .blog-title p 
+{
+    font-size: 26px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Algerian;
+}
+
+.blog-section .blog-writing 
+{
+    font-family: Hervana;
+    padding: 10px 50px;
+    height: 800px;
+    color:#3936ff;
+    font-size: 20px;
+    text-align: justify;
+}
+#more {
+    display:none;
+}
+
+button {
+    background: white;
+    color: green;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: none;
+}
+
+button:hover {
+    background: maroon;
+}
+
+/* Blog part ends */
+
+/* Research section starts */
+.container-research
+{
+    min-height: 100%;
+}
+.research-container {
+	text-align: center;
+	
+}
+
+.research-container .research-section {
+    opacity: 0.8;
+	width: 90%;
+	height: 2600px;
+	background: grey;
+	display: inline-flex;
+	flex-direction: column;
+	margin: 50px 0px 50px;
+	box-shadow:0px 0px 10px 2px gray;
+}
+
+.research-container .research-section .research-heading {
+	
+	background: #7a7c8b;
+	height: 40px;
+}
+
+.research-container .research-section .research-heading p{
+	font-size: 19px;
+	margin-top: 8px;
+	color:#333333;
+	
+	
+}
+
+.screenshot {
+	height:200px;
+	max-height:100%; 
+	max-width:100%;
+}
+
+.research {
+	height: 500px;
+	border: 1px solid black;
+	display: flex;
+}
+
+p .compare {
+	position: relative;
+}
+
+.reference {
+	flex: 50%;
+	border-right: 1px solid black;
+	padding: 20px 20px;
+}
+
+.portfolio {
+	flex: 50%;
+	padding: 20px 20px;
+}
+/* Research section starts */
